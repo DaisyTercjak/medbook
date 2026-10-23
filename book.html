@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Northfield Surgery | Book an appointment online</title>
+    </head>
+    <body>
+
+        <header>
+            <p><strong>Northfield Surgery</strong></p>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="book.html">Book an Appointment</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="clinicians.html">Our Team</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </nav>
+        </header>
+
+        <main>
+            
+                <h1>Book an Appointment</h1>
+                <p>To book an appointment, please fill out the form below with your details and preferred appointment time. Our team will get back to you to confirm your booking.</p>
+                <form action="submit_appointment.php" method="post">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                    <label for="time">Preferred Time:</label>
+                    <input type="time" id="time" name="time" required><br><br>
+
+                    <input type="submit" value="Book Appointment">
+                </form>
+                
+
+        </main>
+        
+        <footer>
+            <p>Northfield Surgery, 14 Northfield Road, Plymouth PL4 0AB</p>
+    <p>Telephone: <a href="tel:01752000000">01752 000000</a></p>
+    <p>This is a fictional practice built as a student project.
+    No real patient data is used.</p>
+        </footer>
+
+    </body>
+</html>
